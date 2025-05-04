@@ -1,11 +1,12 @@
-import Navbar from "@/components/Navbar";
-import CourseCard from "./courses/page";
+
+
 import Link from "next/link";
+
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+
       <section className="flex flex-col items-center justify-center text-center py-20 px-4 bg-gradient-to-r from-blue-100 to-white">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
           Onlayn Kurslar Platformasiga Xush Kelibsiz!
@@ -21,7 +22,6 @@ export default function Home() {
         </Link>
       </section>
 
-      <CourseCard/>
     </>
   );
 }
